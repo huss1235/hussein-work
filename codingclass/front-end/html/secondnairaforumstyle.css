@@ -1,0 +1,95 @@
+.container, .container2, .container3, .container4 {
+    margin: 7px 100px 7px 100px;
+}
+
+.color1 {
+    background-color: #F6F6EC;
+}
+.color2 {
+    background-color:#E8ECE0 ;
+   
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C8CCC0;
+    border-radius: 20px;
+}
+.cl {
+    text-align: center;
+}
+.wh{
+    width: 500px;
+    height: 25px
+}
+.wh2 {
+    width: 100px;
+    height: 25px;
+}
+.padding {
+    padding: 10px;
+}
+.borderB {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+} 
+.borderT {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.textcolor {
+    color: #182D98;
+    font-size: large;
+
+    
+}
+#st { 
+    position: sticky;
+    top: 0px;
+}
+/* #relative {
+    position: relative;
+    border: 8px solid black;
+    padding: 20px;
+} */
+#text {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    font: 30px ; 
+    box-shadow: 10px 100px rgb(105, 101, 101),
+}
+#search {
+    width: 20px;
+    height: 30px;
+    display: none;
+}
+a:link {
+    color: purple
+}
+
+a:active {
+    color: green;
+}
+
+a:hover {
+    font-size: 60px;
+}
+
+#firstheader:hover {
+    cursor: pointer;
+    color: green;
+}
+.flexbox {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;   
+
+}
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my first work at inmotion</title>
+        <link href="myfavicon.png" rel="icon" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="author" content="james" />
+        <meta name="description" content="" />
+    </head>
+
+    <body>
+        <div>
+          <h1 title="am a front end developer">hussein is a student</h1>
+          <h2>And that what he is!</h2>
+          <h3>Though he can become a Manager in an oil company</h3>
+        </div>
+
+        
+        <h3 style="text-align:center;font-size:50px">market items</h3> 
+        <ol type="I"style="color:green;font-family:verdana;font-size:32px;background-color:pink;">
+          <li>soap</li>
+          <li>fruit</li>
+        </ol>
+        <ul style="color:blue;font-size:35px;font-family:courier;background-color:green;text-align:center">
+          <li>soap</li>
+          <li>fruit</li>
+        </ul>
+
+        <p>fast and exotic cars </p>
+        <div>
+          <strong>fast</strong>
+        </div>
+         <i>fsat</i>
+         <span></span>
+         <i></i>
+         <em></em>
+        <div>
+          <a href="https://facebook.com">follow us on facebook</a>
+        </div>
+        <b>defines bold text</b>
+        <data></data>
+        <dd></dd>
+        <del></del>
+        <dl></dl>
+        <dt></dt>
+        <em></em>
+        <hr></hr>
+        <img src="myfavicon.png" width="250" alt="this is my image">
+        <form>
+          <div> <input type="password" id="pswrd" placeholder="Enter your password" /><label for="pswrd"> input your password</label></div>
+          <br />
+          <div> <input type="text" maxlength="6" id="me" placeholder="enter your name"/> <label for="me">Name</label></div><br>
+          <label><i><strong>what you like</strong></i></label><br>
+            <div><input type="checkbox" id="xyz" /> <label for="xyz">Do you have Phone</label></div>
+            <div><input type="checkbox" id="checkbox" class="motion" /> <label for="checkbox">Do you have Eyes</label></div>
+            <div><input type="checkbox" id="motion" /> <label for="motion">do you have car</label><br>  
+          <label><strong><i>choose your gender</i></strong></label> <br>
+            <div><input type="radio" name="gender" id="m" /><label for="m">male</label></div>
+            <div> <input type="radio" name="gender" id="f" /><label for="f">female</label></div>
+            <div> <input type="radio" name="gender" id="o" /><label for="o">other</label></div>
+            <div><input type="radio" name="gender" id="t" /><label for="t">things</label></div>
+          <div><input type="submit" /></div>
+          <div><button type="submit" title="me and you"><strong>register</strong></button></div><br>
+          <input type="button" value="go to your order now and proceed your payment"/><br>
+          <label for="you">eatable list</label> <select id="you">
+            <option>food</option>
+            <option>chicken</option>
+            <option>water</option>
+            <option>gfggffffjffjfjjfjfjfh</option>
+          </select><br>
+          <div><textarea>Tell us about your self</textarea></div><br>
+          <input type="file" />
+          <input type="time" />
+          <fieldset>
+            <legend id="e"><strong>elementry</strong></legend>
+            <label for="s"><strong>your school</strong></label><br>
+            <input type="text" id="s" value="wisdom gate intl" /><br><br>
+            <label for="y"><strong>your reason</strong></label><br>
+            <input type="text" id="y" value="to learn"/><br><br>
+            <label for="yr"><strong>your last name</strong></label><br>
+            <input type="text" id="yr" value="salahudeen"/><br><br>
+            <input type="submit">
+            <input type="reset"> 
+          </fieldset><br>
+          <label for="p">phone you are using right now</label><br>
+          <input list="phone" id="p">
+          <datalist id="phone">
+            <option>andriod</option>
+            <option>iphone</option>
+            <option>samsung</option>
+          </datalist><br><br>  
+          <label for="ennt"> enter your date of birth correctly</label> 
+          <input type="date" max="2020-01-02" id="ennt" /><br><br>
+          <input type="image"src="myfavicon.png" width="48" height="35" alt="submit"/><br>
+          <label for="ent">enter your address number</address></label>
+          <input type="tel" pattern="[1-5]{5}-[0-4]{2}"placeholder="23451-22" required id="ent" autofocus>
+          <strong><input type="submit" value="submit"></strong><br><br>
+          <strong>follow this way:</strong><small>12345-33</small>
+
+        </form>
+        
+    </body>
+</html>
